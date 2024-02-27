@@ -95,7 +95,7 @@ stage("Publish to Nexus Repository Manager") {
                     groupId: pom.groupId,
                     version: ARTVERSION,
                     repository: 'vprofile-release',
-                    credentialsId: 'NEXUS_CREDENTIAL_ID',
+                    credentialsId: 'nexus',
                     artifacts: [
                         [artifactId: pom.artifactId,
                         classifier: '',
