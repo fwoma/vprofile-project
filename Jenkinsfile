@@ -105,10 +105,10 @@ pipeline {
                            //     classifier: '',
                            //    file: "pom.xml",
                              //   type: "pom"]
-                            ]
-                        )
-                    }
-                }
+                         //   ]
+                       // )
+                  //  }
+               // }
             }
         }
     }
